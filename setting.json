@@ -1,0 +1,45 @@
+{
+    "bot-account":{ 
+        "username": "Admin",
+        "password": "",
+        "type": "crack"
+    },
+
+    "server":{
+        "ip": "StoneXHeartSMP.aternos.me",
+        "port": 54266,
+        "version": "1.20.1"
+    },
+
+    "position":{
+        "enabled": false,
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+
+    "utils":{
+        "auto-auth":{
+            "enabled": false,
+            "password": "12345678"
+        },
+
+        "anti-afk":{
+            "enabled": true,
+            "sneak": true
+        },
+
+        "chat-messages":{
+            "enabled": true,
+            "repeat": false,
+            "repeat-delay": 10,
+
+            "messages": [
+                "salut creatorul meu este ionutfra
+            ]
+        },
+
+        "chat-log": true,
+        "auto-reconnect": true
+    }
+}
