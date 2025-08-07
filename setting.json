@@ -1,45 +1,35 @@
 {
-    "bot-account":{ 
-        "username": "Admin",
-        "password": "",
-        "type": "cracked"
+  "bot-account": {
+    "username": "BotulMeu",
+    "password": ""
+  },
+  "server": {
+    "ip": "StoneXHeartSMP.aternos.me",
+    "port": 54266,
+    "version": "1.20.4"
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "123456"
     },
-
-    "server":{
-        "ip": "StoneXHeartSMP.aternos.me",
-        "port": 54266,
-        "version": "1.20.1"
+    "chat-log": true,
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 60,
+      "messages": ["Salut!", "Suntem prietenoși!"]
     },
-
-    "position":{
-        "enabled": false,
-        "x": 0,
-        "y": 0,
-        "z": 0
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
     },
-
-    "utils":{
-        "auto-auth":{
-            "enabled": false,
-            "password": "12345678"
-        },
-
-        "anti-afk":{
-            "enabled": true,
-            "sneak": true
-        },
-
-        "chat-messages":{
-            "enabled": true,
-            "repeat": false,
-            "repeat-delay": 10,
-
-            "messages": [
-                "salut creatorul meu este ionutfra
-            ]
-        },
-
-        "chat-log": true,
-        "auto-reconnect": true
-    }
+    "auto-reconnect": true
+  },
+  "position": {
+    "enabled": true,
+    "x": 0,
+    "y": 70,
+    "z": 0
+  }
 }
